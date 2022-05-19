@@ -2,23 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  # address: >
-  #   <p>555 your office number</p>
-  #   <p>123 your address street</p>
-  #   <p>Your City, State 12345</p>
+  address: 
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+_This academic site is new in May 2022 and still a bit bare-bones!_
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an Australian citizen originally from sunny north Queensland. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I did my BA at Harvard, concentrating in applied mathematics with a secondary in economics, and in 2013 I graduated summa cum laude with highest honors in field.
+My undergraduate research/thesis focused on network optimization and large scale mixed integer linear optimization algorithms, advised by [Ozlem Ergun](https://coe.northeastern.edu/people/ergun-ozlem/).
+I was a teaching fellow for three optimization courses at Harvard, including [Applied Math 121](https://am121.seas.harvard.edu/).
+
+In May 2022, I finished my PhD at the MIT Operations Research Center in Cambridge, MA. 
+My doctoral research/thesis focused on conic formulations and algorithms for convex optimization, mixed-integer convex optimization, and nonconvex optimization, and I was advised by [Juan Pablo Vielma](https://juan-pablo-vielma.github.io/).
+These methods are implemented in open source solvers (see [software](/chriscoey/software/)) written in [Julia](https://julialang.org/) and accessible through the optimization modeling language [JuMP](https://jump.dev/).
+Since becoming involved with the JuMP-dev community in 2016, I have participated annually in the JuMP-dev workshops.
+I was the teaching assistant for the graduate level course 15.083J (Spring 2018): _Integer programming and combinatorial optimization_.
+
+I am continuing my research and software engineering projects as a postdoc / research scientist at the MIT Sloan School of Management.
+
+<!-- what i want to do, contact me if interested, ... -->
