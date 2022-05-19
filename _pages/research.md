@@ -10,7 +10,7 @@ nav_order: 2
 ### papers
 
 See my [Google Scholar page](https://scholar.google.com/citations?user=TTv4ibQAAAAJ).
-Several papers are accepted or undergoing minor revisions.
+Several papers are accepted or undergoing revision.
 
 
 ### undergraduate thesis
