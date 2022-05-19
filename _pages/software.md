@@ -15,7 +15,7 @@ I am a primary developer of the following optimization packages (ordered chronol
 
 [Pajarito.jl](https://github.com/JuliaOpt/Pajarito.jl) is an outer approximation solver for mixed integer conic optimization problems over standard second-order, positive semidefinite, and exponential cones.
 Pajarito has several cutting plane algorithms that combine the power of external MILP solvers and continuous conic solvers.
-We discuss the theory and implementation in Chapter 4 of [my thesis](/assets/pdf/phd_thesis.pdf), which is an updated and shortened version of the paper [outer approximation with conic certificates for mixed-integer convex problems](https://arxiv.org/abs/1808.05290) (with Miles Lubin and Juan Pablo Vielma).
+We discuss the theory and implementation in Chapter 4 of [my thesis](/assets/pdf/phd_thesis.pdf), which is an updated and shortened version of our paper [outer approximation with conic certificates for mixed-integer convex problems](https://arxiv.org/abs/1808.05290) (with Miles Lubin and Juan Pablo Vielma).
 Based on the now-defunct MathProgBase, Pajarito is succeeded by MOIPajarito, which is based on MathOptInterface.
 
 
@@ -29,7 +29,8 @@ Pavito uses external MILP and NLP solvers.
 
 [Hypatia.jl](https://github.com/chriscoey/Hypatia.jl) is a primal-dual conic interior point algorithm for continuous conic problems over generic proper cones.
 We discuss Hypatia in Chapter 1 of [my thesis](/assets/pdf/phd_thesis.pdf), which is based on the paper [performance enhancements for a generic conic interior point algorithm](https://arxiv.org/abs/2107.04262) (with Lea Kapelevich and Juan Pablo Vielma).
-We model three dozen applied [examples](https://github.com/chriscoey/Hypatia.jl/tree/master/examples); some appear in Chapters 2 and 3 of [my thesis](/assets/pdf/phd_thesis.pdf), which are based on our papers [solving natural conic formulations with Hypatia.jl](https://arxiv.org/abs/2005.01136) and [conic optimization with spectral functions on Euclidean Jordan algebras](https://arxiv.org/abs/2103.04104) (with Lea Kapelevich and Juan Pablo Vielma).
+We model three dozen applied [examples](https://github.com/chriscoey/Hypatia.jl/tree/master/examples).
+Some examples appear in Chapters 2 and 3 of [my thesis](/assets/pdf/phd_thesis.pdf), which are based on our papers [solving natural conic formulations with Hypatia.jl](https://arxiv.org/abs/2005.01136) and [conic optimization with spectral functions on Euclidean Jordan algebras](https://arxiv.org/abs/2103.04104) (with Lea Kapelevich and Juan Pablo Vielma).
 
 
 ### MOIPajarito solver
@@ -41,6 +42,6 @@ We discuss MOIPajarito in Chapter 5 of [my thesis](/assets/pdf/phd_thesis.pdf).
 
 ### PajaritoExtras.jl
 
-[PajaritoExtras.jl](https://github.com/chriscoey/PajaritoExtras.jl) extends MOIPajarito by adding support for a dozen cones that are already supported by Hypatia.
-The examples folder contains applied mixed integer conic examples over these cones, formulated with JuMP and solved using MOIPajarito.
-These cones, examples, and benchmark results are discussed in Chapter 5 of [my thesis](/assets/pdf/phd_thesis.pdf).
+[PajaritoExtras.jl](https://github.com/chriscoey/PajaritoExtras.jl) extends MOIPajarito by adding support for a variety of cones recognized by Hypatia.
+Using JuMP, we formulate applied mixed integer conic [examples](https://github.com/chriscoey/PajaritoExtras.jl/tree/main/examples) over these cones.
+We describe cone oracles, applied example formulations, and benchmark results in Chapter 5 of [my thesis](/assets/pdf/phd_thesis.pdf).
